@@ -1,0 +1,49 @@
+body {
+	background-color: #000000;
+	font-family: 'Hacker Font', sans-serif;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+
+.logo {
+	width: 150px;
+	height: 150px;
+	margin-bottom: 50px;
+}
+
+.title {
+	color: #FFFFFF;
+	font-size: 36px;
+	margin-bottom: 30px;
+}
+
+.passcode {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.passcode input[type="password"] {
+	padding: 10px;
+	border-radius: 10px;
+	border: none;
+	background-color: #FFFFFF;
+	margin-bottom: 20px;
+}
+
+.passcode button {
+	padding: 10px;
+	border-radius: 10px;
+	border: none;
+	background-color: #FFFFFF;
+	color: #000000;
+	font-weight: bold;
+	font-size: 18px;
+	cursor: pointer;
+}
